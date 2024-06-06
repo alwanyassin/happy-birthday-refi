@@ -248,6 +248,8 @@ button:hover {
   font-weight: lighter;
   font-size: 2rem;
   margin: 10px 0 0;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .nine p {
@@ -258,6 +260,16 @@ button:hover {
 #replay {
   z-index: 3;
   cursor: pointer;
+  display: inline-block;
+  color:#fff;
+  background-color: #15A1ED;
+  border: 2px solid #fff;
+  border-radius: 5px;
+}
+
+#lastsmile {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 /* Media Queries */
