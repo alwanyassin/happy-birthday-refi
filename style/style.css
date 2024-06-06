@@ -6,9 +6,9 @@ body {
   margin: 0;
   font-family: "Work Sans", sans-serif;
   background-image: url('https://raw.githubusercontent.com/alwanyassin/happy-birthday-refi/master/img/bg_17.jpeg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;  
-  background-size: cover;
+  background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  background-position: center center;              /* optional, center the image */
 }
 
 button {
@@ -250,6 +250,10 @@ button:hover {
   margin: 10px 0 0;
   color: white;
   text-shadow: 2px 2px 4px #000000;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  border: 3px solid #f1f1f1;
+  text-align: center;
 }
 
 .nine p {
