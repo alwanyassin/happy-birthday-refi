@@ -197,7 +197,7 @@ const animationTimeline = () => {
     )
     .staggerFromTo(
       ".baloons img",
-      2.5,
+      6.5,
       {
         opacity: 0.9,
         y: 1400
@@ -302,5 +302,16 @@ const animationTimeline = () => {
   });
 };
 
+const audio = new Audio("/img/cty.mp3");
+function myFunction() {
+  var x = document.getElementById("thisButton");
+  x.style.display = "none"; //just let the css value of button to none
+}
 // Run fetch and animation in sequence
-fetchData();
+const thisButton = document.getElementById('thisButton');
+thisButton.addEventListener("click", () => {
+  audio.play();
+  myFunction();
+  fetchData();
+});
+// fetchData();
