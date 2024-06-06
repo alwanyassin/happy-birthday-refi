@@ -302,7 +302,7 @@ const animationTimeline = () => {
   });
 };
 
-const audio = new Audio("/img/cty.mp3");
+const audio = new Audio("https://raw.githubusercontent.com/alwanyassin/happy-birthday-refi/master/vendor/assets/music/cty.mp3");
 function myFunction() {
   var x = document.getElementById("thisButton");
   x.style.display = "none"; //just let the css value of button to none
