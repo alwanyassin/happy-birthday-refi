@@ -5,6 +5,10 @@ html {
 body {
   margin: 0;
   font-family: "Work Sans", sans-serif;
+  background-image: url('https://raw.githubusercontent.com/alwanyassin/happy-birthday-refi/master/img/bg_17.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
 }
 
 button {
